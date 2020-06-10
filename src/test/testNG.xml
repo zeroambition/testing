@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <test name="Login">
+        <classes>
+            <class name="FirstTest"/>
+        </classes>
+    </test>
+    <test name="Change city">
+        <classes>
+            <class name="SecondTest"/>
+        </classes>
+    </test>
+    <test name="Buy juicer set price">
+        <classes>
+            <class name="ThirdTest"/>
+        </classes>
+    </test>
+    <test name="Buy juicer set price and power">
+        <classes>
+            <class name="FourthTest"/>
+        </classes>
+    </test>
+</suite>
